@@ -3,8 +3,8 @@ package rol;
 import javax.xml.parsers.*;
 import org.w3c.dom.*;
 import java.io.*;
-import java.utils.ArrayList;
-import java.utils.List;
+import java.util.ArrayList;
+import java.util.List;
 
 class Parser {
     public static void main(String[] args) {
@@ -16,7 +16,7 @@ class Parser {
     }
 
     private static void howToReadXML() {
-
+        File f = new File("personatges.xml");
     }
 
     private static void howToExtractDataFromXML() {
