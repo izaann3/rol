@@ -4,6 +4,12 @@ import javax.xml.parsers.*;
 import org.w3c.dom.*;
 import java.io.*;
 
+class Parser {
+    public static void main(String[] args) {
+    
+    }
+}
+
 class Personatges {
     private String nombre;
     private int nivel;
@@ -12,7 +18,7 @@ class Personatges {
     private String arma;
     private String armadura;
 
-    public Personaje(String nombre, int nivel, int puntosDeVida, int puntosDeMana, String arma, String armadura) {
+    public Personatges(String nombre, int nivel, int puntosDeVida, int puntosDeMana, String arma, String armadura) {
         this.nombre = nombre;
         this.nivel = nivel;
         this.puntosDeVida = puntosDeVida;
@@ -43,11 +49,5 @@ class Personatges {
 
     public String getArmadura() {
         return armadura;
-    }
-}
-
-class Main {
-    public static void main(String[] args) {
-    
     }
 }
