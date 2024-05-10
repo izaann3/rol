@@ -26,6 +26,17 @@ public class Parser {
     }
 
     private static void howToExtractDataFromXML() {
+        File f = new File("personatges.xml");
+        List<Personatges> personatges = new ArrayList<>();
 
+        for (Personatges personatge : personatges) {
+            String nombre = personatge.getNombre();
+            int nivel = personatge.getNivel();
+            int puntosDeVida = personatge.getPuntosDeVida();
+            int puntosDeMana = personatge.getPuntosDeMana();
+            String arma = personatge.getArma();
+            String armadura = personatge.getArmadura();
+        }
+        System.out.println("Datos extraidos correctamente");
     }
 }
