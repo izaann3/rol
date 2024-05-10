@@ -4,7 +4,7 @@ import javax.xml.parsers.*;
 import org.w3c.dom.*;
 import java.io.*;
 
-class Personatges{
+class Personatges {
     private String nombre;
     private int nivel;
     private int puntosDeVida;
@@ -22,9 +22,8 @@ class Personatges{
     }
 }
 
-<nom>Gandalf</nom>
-<nivell>10</nivell>
-<puntsDeVida>100</puntsDeVida>
-<puntsDeMana>150</puntsDeMana>
-<arma>Gràvida de llum</arma>
-<armadura>Roba de mag</armadura>
+class Main {
+    public static void main(String[] args) {
+    
+    }
+}
