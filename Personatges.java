@@ -1,36 +1,12 @@
 package rol;
 
-import javax.xml.parsers.*;
-import org.w3c.dom.*;
-import java.io.*;
-import java.util.ArrayList;
-import java.util.List;
-
-class Parser {
-    public static void main(String[] args) {
-        System.out.println("Leyendo los datos del XML");
-        howToReadXML();
-
-        System.out.println("Extrayendo los datos del XML");
-        howToExtractDataFromXML();
-    }
-
-    private static void howToReadXML() {
-        File f = new File("personatges.xml");
-    }
-
-    private static void howToExtractDataFromXML() {
-
-    }
-}
-
-class Personatges {
-    private String nombre;
+public class Personatges {
     private int nivel;
     private int puntosDeVida;
     private int puntosDeMana;
     private String arma;
-    private String armadura;
+    private String armadura;   private String nombre;
+ 
 
     public Personatges(String nombre, int nivel, int puntosDeVida, int puntosDeMana, String arma, String armadura) {
         this.nombre = nombre;
