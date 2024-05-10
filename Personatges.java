@@ -6,7 +6,19 @@ import java.io.*;
 
 class Parser {
     public static void main(String[] args) {
-    
+        System.out.println("Leyendo los datos del XML");
+        howToReadXML();
+
+        System.out.println("Extrayendo los datos del XML");
+        howToExtractDataFromXML();
+    }
+
+    private static void howToReadXML() {
+
+    }
+
+    private static void howToExtractDataFromXML() {
+
     }
 }
 
